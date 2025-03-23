@@ -23,6 +23,8 @@
       <ProjectItem ReplaceParameters="true"
         TargetFileName="$projectname$.vcxproj.filters">ConsoleAppModern.vcxproj.filters</ProjectItem>
       <ProjectItem ReplaceParameters="true"
+        OpenInEditor="true"
+        OpenOrder="10"
         TargetFileName="$safeprojectname$.cpp">ConsoleAppModern.cpp</ProjectItem>
     </Project>
   </TemplateContent>
