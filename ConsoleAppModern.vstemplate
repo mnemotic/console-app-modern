@@ -11,11 +11,8 @@
     <PlatformTag>windows</PlatformTag>
     <ProjectTypeTag>console</ProjectTypeTag>
     <SortOrder>1000</SortOrder>
-    <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>ConsoleAppModern</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
-    <LocationField>Enabled</LocationField>
-    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon Package="{976cf7d5-2a72-47a3-9e46-5b7c3db95f17}"
       ID="500" />
   </TemplateData>
