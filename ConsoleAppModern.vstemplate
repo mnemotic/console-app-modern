@@ -1,0 +1,32 @@
+<VSTemplate Version="3.0.0"
+  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"
+  Type="Project">
+  <TemplateData>
+    <Name>Console App (modern)</Name>
+    <Description>Console applications using the latest C++ standard and standard library modules.</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <LanguageTag>cpp</LanguageTag>
+    <PlatformTag>windows</PlatformTag>
+    <ProjectTypeTag>console</ProjectTypeTag>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ConsoleAppModern</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon Package="{976cf7d5-2a72-47a3-9e46-5b7c3db95f17}"
+      ID="500" />
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$projectname$.vcxproj"
+      File="ConsoleAppModern.vcxproj"
+      ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true"
+        TargetFileName="$projectname$.vcxproj.filters">ConsoleAppModern.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="true"
+        TargetFileName="$safeprojectname$.cpp">ConsoleAppModern.cpp</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
